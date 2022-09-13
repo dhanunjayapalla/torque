@@ -12,7 +12,7 @@ variable "username" {
 
 variable "region" {
   description = "Region of RDS"
-  default = "us-east-1"
+  default = "ap-southeast-1"
 }
 
 variable "engine" {
