@@ -58,3 +58,11 @@ variable "size" {
     error_message = "Invalid database size. Options are: small, medium, or large."
   }
 }
+
+variable "access_key" {
+    type = string
+}
+
+variable "secret_key" {
+    type = string
+}
