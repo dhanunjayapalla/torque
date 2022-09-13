@@ -32,3 +32,11 @@ variable "parameter_group_name" {
   type    = string
   default = "default.mysql5.7"
 }
+
+variable "access_key" {
+    type = string
+}
+
+variable "secret_key" {
+    type = string
+}
